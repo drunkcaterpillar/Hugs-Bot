@@ -8,7 +8,7 @@ from keep_alive import keep_alive
 
 client = discord.Client()
 
-sad_words = ["sad", "depressed", "unhappy", "angry", "miserable", "depressing"]
+sad_words = ["sad","depressed","upset","mad","angry","frustrated","miserable","depressing","feeling bad", "don't feel good","worthless","not well","I'm not good","bad mood","feel blue","feeling blue"]
 
 starter_encouragements = [
   "Hope you'll do better soon!",
