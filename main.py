@@ -11,9 +11,18 @@ client = discord.Client()
 sad_words = ["sad","depressed","upset","mad","angry","frustrated","miserable","depressing","feeling bad", "don't feel good","worthless","not well","I'm not good","bad mood","feel blue","feeling blue"]
 
 starter_encouragements = [
-  "Hope you'll do better soon!",
-  "Hang in there.",
-  "You are a great person!"
+  "hang in there",
+  "you are a great person",
+  "sorry you feel this way",
+  "that's really unfair",
+  "hope you feel better soon",
+  "this must be hard, but I believe in you",
+  "it's never fun to feel like that, hope you do better soon",
+  "I'm sorry you're in pain",
+  "you are important and your feelings are valid",
+  "sorry you're having a bad day",
+  "it's okay to feel that way",
+  "I hear you"
 ]
 
 if "responding" not in db.keys():
