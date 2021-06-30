@@ -50,6 +50,12 @@ async def on_message(message):
 
   msg = message.content
 
+  if msg.startswith('hi'):
+    await message.channel.send('hello, how are you doing?')
+
+  if msg.startswith('hug'):
+    await message.channel.send('*hugs you back*')
+
   if msg.startswith('$inspire'):
     quote = get_quote()
     await message.channel.send(quote)
