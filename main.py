@@ -97,6 +97,11 @@ async def on_message(message):
       db["responding"] = False
       await message.channel.send("Responding is off.")
 
+@client.event 
+async def on_ready():
+  await client.change_presence(status=discord.Status.idle, activity=discord.Game('$'))
+
+
 keep_alive()
 
 client.run(os.environ['TOKEN'])
